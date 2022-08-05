@@ -13,7 +13,7 @@
  * the License.
  *******************************************************************************/
 
-package data
+package main
 
 import (
 	"context"
