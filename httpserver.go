@@ -95,7 +95,7 @@ func (b *HttpServer) BootstrapHandler(
 	}
 
 	server := &http.Server{
-		Addr:         addr,
+		Addr:         ":59880",
 		Handler:      b.router,
 		WriteTimeout: timeout,
 		ReadTimeout:  timeout,
